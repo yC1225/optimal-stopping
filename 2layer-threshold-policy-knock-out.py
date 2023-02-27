@@ -1,6 +1,5 @@
 ##========================== KNOCKOUT PARALLELIZED: MODIFIED =========================##
 import time
-import numexpr as ne
 import numpy as np
 from numba import njit, int64, float64, prange
 from numba.experimental import jitclass
