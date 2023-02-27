@@ -1,4 +1,4 @@
-##========================== PATH DEPENDENT DEPTH 3 PARALLELIZED: MODIFIED =========================##
+##========================== KNOCKOUT PARALLELIZED: MODIFIED =========================##
 import time
 import numexpr as ne
 import numpy as np
@@ -41,7 +41,7 @@ class Parameters:
         self.sigma = 0.2
         self.tau = 1 / 18
         self.kappa = 100
-        self.rho = -0.05
+        self.rho = 0
         self.B = 170
         self.x0 = 100
         self.discount_vet = np.exp(- self.r * self.tau * np.arange(self.T))
